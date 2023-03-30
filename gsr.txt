@@ -1,0 +1,773 @@
+Generic Staff Roster            Users Guide, Version 2.1
+
+ Welcome  to  the Users Guide for Generic  Staff  Roster
+ (hereafter referred to as GSR).  While GSR is still  in
+ development, this document will serve as a  'manual  by
+ proxy' so to speak until the full manual and help  file
+ have  been completed.  These will be available to those
+ users who register the program with the author.
+
+ David Gilbert, Author
+
+---------------------------------------------------------
+Section 1.     General Overview
+
+GSR  was  designed  to aid in the development  of  weekly
+staff  rosters  for small business owners/managers.   GSR
+has  the  ability  to  produce reports which  detail  any
+potential conflicts or problems found with your  rosters.
+It   can  also  produce  very  basic  staff/roster   cost
+breakdown reports.
+
+GSR is composed of four main elements.  These are:
+
+The Control Form
+
+          The  control form has several functions.  These
+          are:
+          - allow modification of each roster description
+            and code
+          - allow    activation   or   deactivation    of
+            individual rosters
+          - adjust parameters of new rosters (start time,
+            end time, interval)
+          - select  the starting day of the week  (Sunday
+            through to Saturday)
+          - toggle delete confirmation
+          - delete all rosters
+       
+The Staff Form
+
+          The  staff form allows you to modify your staff
+          member  list.  On this form, you  can  add  new
+          staff  members and their details, edit  details
+          for  existing staff members and delete obsolete
+          staff records.
+       
+The Roster Form
+
+          The   roster  form  is  your  roster   creation
+          workspace.  Here you can:
+          - adjust times for each shift in the roster
+          - add staff members to individual time slots
+          - remove  staff  members from  individual  time
+            slots
+          - print the selected roster
+          - edit notes for the selected roster
+       
+The Main Window
+
+          The  main  window contains all of the  previous
+          forms.  It also provides a toolbar (at the  top
+          of the form) and a status bar (at the bottom of
+          the form).  The toolbar contains buttons to:
+          - show  or  hide the staff, roster and  control
+            forms
+          - print the selected form (if applicable)
+          - change the font for the selected item
+          - produce the roster Exception Report
+          - produce the staff/roster detail report
+       
+          Located at the bottom of the main window is the
+          status    bar.    The   status   bar   contains
+          information   about  the   operation   of   GSR
+          (generally  whichever control the mouse  cursor
+          is  over).   Messages  about  the  function  of
+          certain controls and particular operations will
+          be displayed here.
+          
+          Both  the  toolbar and the status  bar  can  be
+          switched on and off by using the `Options' menu
+          item.
+
+Rosters and Shifts
+
+A  roster is made up of seven days (starting with the day
+specified on the control form).  Each roster can  contain
+an  almost unlimited number of shifts.  A shift comprises
+a  start  time and a finish time.  A roster may  also  be
+called  a  'classification' or 'class'.  This is  because
+you   can  allocate  staff  members  to  various  rosters
+according  to  their classification.  This  is  explained
+further in the section on the Staff form.
+
+---------------------------------------------------------
+Section 2.     Getting Started
+
+The Control Form
+
+The  first  task  which  you  should  concentrate  on  is
+defining  the  rosters  or classes  which  your  business
+requires.  This is done on the control form.  On the left
+hand  side  of  the  control form is a  grid  with  three
+columns.   Initially,  this  grid  will  be  filled  with
+default values and all rosters will be enabled.
+
+       1. Double-click   on   the  first   cell   in   the
+          'Description'  column and  a  class  definition
+          text box will popup.
+       
+       2. Type  in up to 20 alphanumeric characters  as  a
+          description  for this roster.   You  might  use
+          'Counter' as an example of a counter roster for
+          a small cafe.  Click on the OK button to accept
+          this description.
+       
+       3. Now  double-click  on  the  first  cell  in  the
+          'Code'  column.  Again, a text box  will  popup
+          asking  for  a  short  code  to  identify  this
+          roster.
+
+       4. Type  up  to  three alphanumeric  characters  in
+          this box and click OK.  You might type 'COU' as
+          the  short form for the counter roster  example
+          from step 2.
+
+       5. Double-clicking  on the small LED  icon  in  the
+          third   column   will   activate   (green)   or
+          deactivate  (red) the roster.  This means  that
+          the roster will not be available for editing on
+          the roster form, or searched when exception  or
+          staff reports are produced.
+  
+       Tip:  Disabling  all unnecessary  rosters  will
+       speed up the reporting process.
+
+       6. Repeat  steps 1 to 5 on subsequent lines of  the
+          grid   until  you  have  entered  all  required
+          rosters.   GSR  can  handle up  to  ten  roster
+          definitions.   (This  may  change   in   future
+          versions).
+
+       7. Click  on the drop down box under 'Starting  Day
+          of  Week' and select the day which starts  your
+          roster.
+
+       8. Select  the  appropriate roster  increment  from
+          the  'Roster  Increment' drop down  box.   This
+          increment  will only be used if you  decide  to
+          auto-generate a roster using the button on  the
+          roster form.
+
+       9. If  you decide to auto-generate your rosters (if
+          you  use standard times and increments for your
+          shifts),  click on 'Start Time' and select  the
+          starting hour and minute from the two drop down
+          boxes  to  the left.  Click on 'End  Time'  and
+          repeat this procedure.
+
+       10.The  'Start  Date' box contains  the  date
+          which  will be printed on staff rosters.  Enter
+          the  starting date of the roster here, or click
+          on the button marked '(Today)' to place today's
+          date in the box.
+
+       11.Make sure the 'Delete Confirmation' box is
+          checked  if  you  want to be asked  to  confirm
+          every  time you delete a staff member or roster
+          item.
+       
+The Staff Form
+
+After  you  have  defined all of the  rosters  which  you
+require, you need to enter your staff details.
+
+Select  the  staff form.  There will be a  default  staff
+member already entered in the list, with the details  for
+this employee displayed to the right.  You can edit these
+details by clicking in the appropriate box and typing  in
+the  new  details.  If you make any changes  to  a  staff
+record,  the 'save' button becomes visible on  the  staff
+toolbar.  This button has a small floppy disk icon on it.
+Click on this button to save any changes you have made to
+this  staff member.  The  'exclamation point'  button  on
+the  staff  toolbar is used to add a new staff member  to
+the  list, while the 'scissors' button is used to  delete
+the highlighted staff member from the list.
+
+Most of the staff details are self explanatory, but a few
+warrant further investigations.
+
+Staff  ID:  this  field  should contain  a  UNIQUE  staff
+alphanumeric code to identify each staff member.   It  is
+printed on each individual staff roster.
+
+Birth  Date  and  Date  Employed: these  fields  are  not
+required  but  if  they are entered,  'age'  and  'period
+employed'  information  will  be  displayed  beside   the
+respective fields.
+
+Hours  Min  and Hours Max: these values are not required,
+but if entered, they will be used in the Exception Report
+to  catch allocated hours which fall outside this  range.
+For  example, John Citizen has 'Hours Min' set to 24  and
+'Hours  Max'  set  to  42.  If he is allocated  45  hours
+during  the week, an exception will be reported when  the
+Exception  Report  is  produced.   This  is  useful  when
+certain  staff members (e.g.: students) cannot work  more
+than  a  set number of hours a week in case it interferes
+with their study allowance/assistance.
+
+Notes:  the  notes box allows you to enter any reminders,
+messages etc for the selected staff member.  This note is
+then printed on their individual weekly staff roster.
+
+Staff  Classification: The rosters which you  entered  in
+the  control form will appear hear in a check  box  list.
+By  checking a roster, you are making the selected  staff
+member  available to this roster.  In the example  above,
+John  Citizen is available to be allocated to the Counter
+and Supervisor rosters.  His name will not appear next to
+the other rosters on the roster form.
+
+Staff  Availability: Click the toggle button (the  button
+with  the  red  circle  and yellow  triangle)  to  switch
+between  the  Staff Classification frame  and  the  Staff
+Availability frame.  A list of days starting with the day
+specified  on the control form will appear  and  you  can
+check  the  days  which  the  selected  staff  member  is
+available  on.   This  is a safety  measure  designed  to
+eliminate  staff  being  assigned  to  days  they  cannot
+regularly  work.  The two buttons at the  bottom  of  the
+frame  allow  you  to  select all or  none  of  the  days
+quickly.   Allocating staff to days for  which  they  are
+unavailable on the roster form will result in  a  message
+box   appearing,   indicating  that   staff   member   is
+unavailable on the assigned day.
+
+Both  the  Staff  Classification and  Staff  Availability
+settings are used when the Exception Report is produced.
+
+The last two icons on the Staff toolbar are used to print
+staff  rosters.   The  first button (the  button  with  a
+single  person icon) will print a weekly roster  for  the
+selected staff member while the second button (the button
+with  a  multiple person icon) will print a weekly roster
+for all staff members who appear in rosters.
+
+The Roster Form
+
+The roster form is where you will spend most of your time
+once  you  have set up your staff list.  The roster  form
+consists of:
+
+       - a  dropdown  list box containing a list  of  all
+          active  rosters (those rosters whose LED  light
+          is green on the control form)
+       - a  staff  list box, containing all staff members
+          who can be assigned to the selected roster (the
+          checkbox for the roster is checked on the staff
+          form)
+       - a  spreadsheet-type  grid where  the  roster  is
+          defined
+       - a small toolbar
+       
+By clicking on the dropdown list box, you can select from
+the  list of rosters which you have marked active.  After
+selection, the roster (if already defined) will appear in
+the  spreadsheet  grid and a list of all available  staff
+members  for  this roster will appear in the  staff  list
+box.
+
+Once  you have selected the desired roster, you can begin
+to  modify it.  Your first roster will require  at  least
+one  shift,  with a start time and a finish time.   There
+are two ways of creating a new roster.
+
+1.You  can  click the auto-generate button on the  roster
+  toolbar (the little triangle with the lightning  bolt).
+  This will build a new roster using the defaults on  the
+  control form.  It will start with the designated  start
+  time  and  build  shifts with the  increment  specified
+  until the end time is reached.  This method is of  most
+  use when your shifts are of uniform length.
+
+2.If  your roster shifts are somewhat less uniform,  then
+  you  can  define the shifts yourself.  Select  a  blank
+  line  on  the roster and double-click the first column.
+  A  small  dialog box will popup allowing you to  select
+  the  starting  hour and minute for this shift.   Select
+  the  appropriate  time  and press  'OK'.   Repeat  this
+  process  in the second column to create the  end  time.
+  To  create more shifts, click on the 'plus' button next
+  to  the  roster grid and a new row will be inserted  in
+  the  grid.  The 'minus' button next to the roster  grid
+  will  remove  the selected row from the grid.   Double-
+  clicking  on a grid cell with a time value in  it  will
+  enable you to modify that time.
+
+Now that you have the roster shifts set, you can begin to
+allocate staff members.  The easiest way to perform  this
+task is:
+
+1.Highlight  the desired shift on the roster spreadsheet.
+  Tip:  You  can highlight more than one cell by clicking
+  and  holding  the left mouse button while dragging  the
+  mouse cursor.  Use this method to select the same shift
+  across several days.
+
+2.Select  the staff member to be assigned to this  shift.
+  Tip:  You  can highlight more than one staff member  by
+  clicking  and  holding  the  left  mouse  button  while
+  dragging  the mouse cursor.  Hold down the control  key
+  and   left-click  to  select/deselect  multiple   staff
+  members.
+
+3.If you have selected a single staff member to transfer,
+  double-click  the staff name and it will be  placed  in
+  the  appropriate cell(s) in the roster.  If  the  staff
+  member  is unavailable for that day, a dialog box  will
+  popup and tell you so.
+
+4.If   you  have  selected  multiple  staff  members   to
+  transfer,  click  on the right arrow button  above  the
+  roster selection box (the button with the blue triangle
+  pointing  to the right).  This will transfer all  staff
+  members  into the selected roster cell(s).  If a  staff
+  member  is unavailable for that day, a dialog box  will
+  popup and tell you so.
+
+5.To  remove  a  staff  member from a shift,  select  the
+  roster  cell(s)  and  double-click the  staff  member's
+  name.
+
+6.To  remove  multiple staff members, select  the  roster
+  cell(s) and multi-select the names of the staff members
+  you  wish  to  remove, then click upon the  left  arrow
+  button above the roster selection box (the button  with
+  the blue triangle pointing to the left).
+
+7.Staff names can not be added to the same shift twice.
+
+                                       The Roster Toolbar
+                                                         
+1.Delete  -  delete the entire contents of  the  selected
+  cell.
+
+2.Save  -  save  any  changes made to this  roster  (this
+  button is only visible after changes have been made  to
+  the current roster).
+
+3.Copy - copy the selected roster cells to the clipboard.
+  Use  this  in  conjunction with the  paste  command  to
+  duplicate sections of the roster.
+
+4.Paste  -  paste the contents of the clipboard into  the
+  selected roster cells.  This command works best if  the
+  paste  area  is  the same size as the  copy  area  was.
+  Note: this command will not paste multiple names
+
+5.Notes.-  edit notes for the currently selected  roster.
+  These notes will be printed on the roster printout.
+
+---------------------------------------------------------
+Section 3.     Advanced Topics
+
+Printing Rosters
+
+To  print  a roster, select the desired roster  from  the
+roster selection box and click the printer button on  the
+main  form  toolbar (the button with the  printer  icon).
+This will print the current full-week roster, setting the
+start  date  to  that defined on the control  form.   Any
+notes  for this roster will be printed at the end of  the
+report.
+
+Printing Timesheets
+
+You  can print individual timesheets for a selected staff
+member,  or  all timesheets for those staff  members  who
+have  been  assigned  to  rosters.   These  buttons   are
+available on the staff form toolbar.
+
+The  first button (the button with a single person  icon)
+will  print a weekly roster for the selected staff member
+while  the  second  button (the button  with  a  multiple
+person  icon)  will print a weekly roster for  all  staff
+members  who  appear in rosters.  These  timesheets  will
+include  any notes entered for that staff member.   If  a
+staff  member hasn't been allocated to a roster, no  time
+sheet will be printed.
+
+Producing Reports
+
+The report functions in GSR are useful tools for reducing
+roster  errors.   The report buttons are located  on  the
+main form toolbar.
+
+                                     The Exception Report
+                                                         
+Clicking  on  the  left  button  (the  button  with   the
+magnifying   glass  icon)  will  produce  the  `Exception
+Report'.  The Exception Report will provide the most help
+when building your rosters.  You should use it after  you
+have  finished  your initial staff to roster  allocation.
+Because  this  report  has  to cycle  through  all  staff
+records   and   active  rosters  and   perform   multiple
+comparisons,  it  may  take a  few  minutes  to  complete
+(depending  upon the number of records and the  processor
+type  and memory capacity of the computer you are using).
+This report details:
+
+- any  staff  conflicts  across rosters,  where  a  staff
+  member   may  be  allocated  to  multiple  rosters   on
+  overlapping shifts
+
+- unavailable  staff  members,  where  staff  have   been
+  allocated  on  days  which they are now  not  available
+  (possibly on holiday, changed work hours etc)
+
+- incorrect  staff class, where staff have been allocated
+  to  rosters  which  they  are  now  not  available  for
+  (promoted, relieved of duties)
+
+- staff  member not in staff list, where a name was found
+  in  the roster and no corresponding staff member exists
+  in   the  staff  list  (staff  member  retired,   quit,
+  employment terminated, changed name)
+
+- allocation  of  hours incorrect, where a  staff  member
+  requires certain hours and these requirements have  not
+  been met (too many hours, too few hours)
+
+The report is shown in a spreadsheet grid similar to that
+of the roster, with the exceptions listed in the order in
+which  they were found (normally staff member X roster  X
+time).   You  can  send this report  to  the  printer  by
+clicking  on  the printer icon on the main form  toolbar.
+This report shows:
+
+1.an  LED  to indicate the severity of the problem  (red,
+  yellow   or  green  -  the  color  is  only   a   basic
+  interpretation   of  the  possible  eventualities   the
+  exception may cause)
+2.the roster name where the problem occurred
+3.the roster day and the
+4.shift start time when the problem occurred
+5.the staff member involved with the exception and
+6.a brief description of the problem.
+
+Tip:  You can double-click on an exception listed in  the
+report  to be taken to the source of the problem - either
+the  roster  form or the staff list - with the  offending
+roster cell or staff member record highlighted.
+
+
+The Staff Report
+
+Clicking  on the right button (the button with the  faces
+icon)  will produce the `Staff Report'.  The Staff Report
+is  most useful when you have allocated all of your staff
+to  roster  shifts.  Because this  report  has  to  cycle
+through  all staff records and active rosters and perform
+multiple  comparisons,  it may  take  a  few  minutes  to
+complete  (depending upon the number of records  and  the
+processor  type and memory capacity of the  computer  you
+are using). This report details:
+
+- total  hours and currency amounts for each staff member
+  broken  down into each roster to which the staff member
+  has been allocated
+
+- grand  total figures for each roster and absolute grand
+  totals for all rosters
+
+Note:  if  a staff member hasn't been assigned an  hourly
+rate,  currency amounts will not be calculated for  them.
+You  can enter an hourly amount for a staff member on the
+staff form
+
+The report is shown in a spreadsheet grid similar to that
+of  the roster, with staff members listed in alphabetical
+order and then broken down by roster.  You can send  this
+report to the printer by clicking on the printer icon  on
+the main form toolbar.  This report shows:
+
+1.the staff members staff ID
+2.the staff members name
+3.the  roster name applicable to the displayed hours  and
+  amount
+4.the  hours  for the specified roster (with total  hours
+  underneath for each staff member and a grand  total  at
+  the end of the report)
+5.the  total  currency  amount for the  specified  roster
+  (with total amount underneath for each staff member and
+  a grand total at the end of the report)
+6.a  breakdown  of  hours and currency amounts  for  each
+  roster at the end of the report
+
+
+More About the Reports
+
+The  report form toolbar contains a query button (with  a
+question  mark icon).  Click on this button to view  more
+information  about  the highlighted  exception  or  staff
+report.
+
+
+Saving and Loading Files
+
+The  `File' menu on the GSR main form allows you to  save
+the  current roster to a file and load a previously saved
+roster.
+
+                      Saving the Current Roster to a File
+                                                         
+Selecting `Save Roster to File' from the `File' menu will
+bring  up  the save file dialog.  The save file  name  is
+initially the current roster start date (specified on the
+control  form)  with  the  extension  being  the   roster
+identifier  code  (also specified on the  control  form).
+The roster is saved in comma-delimited text format.
+
+                          Loading a Previously Saved File
+                                                         
+Selecting  `Load Roster from File' from the  `File'  menu
+will  bring up the open file dialog.  You can select  the
+type  of roster file to open by clicking on the drop down
+list  box  .   All  of the active roster  types  will  be
+listed.   You can also select `all files (*.*)' and  `all
+text  files (*.txt)'.  Select a roster name from the file
+list  and press `OK'.  Saved rosters are loaded into  the
+corresponding  roster  spreadsheet.   If  there   is   no
+corresponding roster spreadsheet, the roster file will be
+loaded into the current roster grid.  For example, if you
+are loading a saved `Counter' roster, GSR will switch  to
+the   `Counter'  roster  on  the  roster  form.   If  the
+`Counter'  roster  isn't available or active,  the  saved
+`Counter'  roster  will  be  loaded  into  the  currently
+displayed roster spreadsheet.
+
+Note:  the  loaded roster isn't made permanent until  you
+have  made  changes to it and clicked the save button  on
+the roster form toolbar.  If you switch rosters using the
+roster form drop down list on the roster form, the loaded
+file details will be lost.
+
+Options
+
+                                           Changing Fonts
+                                                         
+You  can select the font type with which certain controls
+display data (such as the roster grid) by clicking on the
+font button on the main form toolbar (the button with the
+blue `A' icon).  If applicable, the font in the currently
+highlighted  control will be changed to  that  which  you
+selected.   You  can  only change  the  display  font  in
+certain  controls - grids, list boxes etc.  This  display
+font also applies to printed objects, such as rosters and
+reports.
+
+                                Changing Printer Settings
+                                                         
+You  can  modify the settings of your current printer  or
+change  the default printer by selecting `Printer  Setup'
+from the `File' menu.
+
+                        Hiding the Toolbar and Status Bar
+
+The main form toolbar can be hidden from view by selecting
+'Hide Toolbar' from the 'Options' menu.  The toolbar can
+be made visible again by selecting 'Show Toolbar' from the
+'Options' menu.  The same is applicable for the main form
+status bar, using 'Hide Status Bar' and 'Show Status Bar'
+from the 'Options' menu.
+
+                                  Locking the Roster Grid 
+
+If you would like the start time and end time columns on
+the roster grid to be visible at all times (so they don't
+scroll), select 'Lock Roster Columns' from the 'Options'
+menu.  The two columns can be unlocked be selecting
+'Unlock Roster Columns' from the 'Options' menu.
+
+---------------------------------------------------------
+Section 4.     System Requirements
+
+GSR requires Windows 3.1or higher, a mouse and a graphics
+capable   printer.  Installation  requires  approximately
+2.5mb free disk space.
+
+---------------------------------------------------------
+Section 5.     GSR and the concept of Shareware
+
+GSR  is shareware. That means that you can download,  use
+and completely free test the program for a certain period
+(normally  30-45  days). You may  also  freely  copy  and
+distribute  GSR  to others as long as the  files  in  the
+original GSR201.ZIP archive are not tampered with and  no
+fee  is  charged. If you find the program useful and  you
+continue to use it, you are obligated to register.
+
+The  whole  shareware concept is based  on  honesty.  The
+registration  fee  you  pay  allows  me  to  support  and
+continue to develop GSR in the future.
+
+When  you  register  GSR you will  get  the  most  recent
+registered version of the program, email support and  the
+registered version help file along with constant  updates
+about further developments in GSR and free upgrades.
+
+Disclaimer
+
+This  Product  is  distributed without  warranty,  either
+expressed or implied.  No guarantee as to its suitability
+for  a  particular  task is given.  No responsibility  is
+assumed for any consequential loss or
+damages arising from its use.
+
+What is Shareware?
+
+Shareware  is  the try it before you buy  it  concept  of
+software marketing. It is freely available by downloading
+it from various FTP sites, the Internet or one can easily
+and  legally  give a copy to a friend. If  you  like  the
+software  and  intend on continuing to use it  after  the
+trial  period of typically 30 - 45 days, you are expected
+to  register  the software with the author. Shareware  is
+not  freeware. It's continued use implies that  it  is  a
+viable  and  needed  tool.  Registration  encourages  the
+author  to enhance the software's features, making  it  a
+better  tool  for you the user, and also  to  create  new
+software in the future.
+
+Shareware  distribution  gives  users  a  chance  to  try
+software before buying it. If you try a Shareware program
+and  continue  using  it, you are expected  to  register.
+Individual  programs differ on details  --  some  request
+registration  while  others require it,  some  specify  a
+maximum trial period. With registration, you get anything
+from  the simple right to continue using the software  to
+an updated program with printed manual.
+
+Copyright  laws  apply to both Shareware  and  commercial
+software,  and the copyright holder retains  all  rights,
+with a few specific exceptions as stated below. Shareware
+authors   are   accomplished   programmers,   just   like
+commercial  authors, and the programs are  of  comparable
+quality. (In both cases, there are good programs and  bad
+ones!)   The  main  difference  is  in  the   method   of
+distribution. The author specifically grants the right to
+copy  and  distribute the software,  either  to  all  and
+sundry  or to a specific group. For example, some authors
+require  written  permission  before  a  commercial  disk
+vendor may copy their Shareware.
+
+Shareware  is  a  distribution  method,  not  a  type  of
+software. You should find software that suits your  needs
+and pocketbook, whether it's commercial or Shareware. The
+Shareware system makes fitting your needs easier, because
+you  can  try  it  before you buy  it.  And  because  the
+overhead is low, prices are also low. Shareware  has  the
+ultimate  money-back guarantee -- if you  don't  use  the
+product, you don't pay for it.
+
+---------------------------------------------------------
+Section 6.     Ordering GSR
+
+If  you  decide you would like to register your  copy  of
+Generic  Staff  Roster, mail your payment  and  the  form
+included  at  the  end of this document  to  the  address
+below.  You will receive your registration codes via  the
+mail  (or Email if possible), along with further  details
+about the benefits of registration and email support.
+
+               PLEASE READ THIS CAREFULLY
+
+Please  include one order form for each copy of  GSR  you
+wish  to register, unless you are placing multiple orders
+for  a single site, in which case you should indicate the
+number of site licenses required on a single order form.
+
+Pricing:
+
+GSR Single Copy                    $50 each
+GSR Site License
+     2 - 9 computers               $45 each
+     10 - 24 computers             $40 each
+     25 - 49 computers             $35 each
+     50 - 99 computers             $30 each
+     99+ computers                 $25 each
+
+Please Make Check Or Money Order Payable To:
+
+David K Gilbert
+
+*ALL* orders from outside Australia *MUST* be paid in the
+form  of  an International Postal Money Order payable  in
+Australian  Dollars OR a check drawn upon  an  Australian
+bank.  Sorry, no credit cards accepted.
+
+Please  mail this form along with a check or money  order
+for the total amount payable to:
+
+David Gilbert
+P.O. Box 2282
+Toowoomba Qld 4350
+Australia
+
+David Gilbert can also be contacted via Email at:
+
+gilberd@dpi.qld.gov.au
+
+---------------------------------------------------------
+
+-CUT HERE-----CUT HERE-----CUT HERE-----CUT HERE-----CUT-
+
+GENERIC STAFF ROSTER - ORDER FORM           ORDER DETAILS
+                                                         
+Please  register _____ copies of Generic Staff Roster  as
+detailed below:
+
+GSR Single  Copy      _____ copy   @ $50 each  = $_____
+GSR Site License
+  2  - 9  computers   _____ copies @ $45 each  = $_____
+
+  10 - 24 computers   _____ copies @ $40 each  = $_____
+
+  25 - 49 computers   _____ copies @ $35 each  = $_____
+
+  50 - 99 computers   _____ copies @ $30 each  = $_____
+
+  99+     computers   _____ copies @ $25 each  = $_____
+---------------------------------------------------------
+
+  Total               _____ copies             = $_____
+---------------------------------------------------------
+            IMPORTANT REGISTRATION INFORMATION - REQUIRED
+                                                         
+Registering Name_________________________________________
+(this is the name GSR will be registered in)
+
+Contact Name_____________________________________________
+
+Address__________________________________________________
+
+City________________State/Prov._____________Zip/PC_______
+
+Country (if outside AUSTRALIA)___________________________
+
+Email Address (optional)_________________________________
+
+Phone Number (optional)__________________________________
+
+Send Registration code via:    NORMAL MAIL     EMAIL
+---------------------------------------------------------
+                     VOLUNTARY INFORMATION - NOT REQUIRED
+                                                         
+How did you find your copy of GSR ?
+
+FTP Site (location):_____________________________________
+
+Internet Site (location):________________________________
+
+Other On-line Service(name):_____________________________
+
+Shareware Distributor (name):____________________________
+
+Other (please explain)___________________________________
+
+If you have any suggestions or bug reports, please let me
+know.
+---------------------------------------------------------
+
